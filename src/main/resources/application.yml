@@ -1,0 +1,14 @@
+server:
+  port: 10011
+  servlet:
+    context-path: /
+
+
+spring:
+  task:
+    scheduling:
+      pool:
+        size: 12
+  redis:
+    host: 127.0.0.1
+    port: 6379
